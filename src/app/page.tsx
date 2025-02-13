@@ -24,11 +24,11 @@ export default function Home() {
         </div>
 
         <div className="flex flex-col items-center text-center md:items-start md:text-left my-12 md:my-24 md:mr-24">
-          <h1 className="text-2xl md:text-3xl">Hello, I'm</h1>
+          <h1 className="text-2xl md:text-3xl text-white">Hello, I'm</h1>
           <h1 className="text-4xl md:text-6xl font-bold text-yellow-500">
             Albert Redila
           </h1>
-          <h1 className="text-lg md:text-2xl">Intern Software Developer</h1>
+          <h1 className="text-lg md:text-2xl text-white">Intern Software Developer</h1>
           <p className="text-s md:text-base text-gray-300 mt-3">
             Aiming to effectively contribute to web development projects while gaining valuable 
             experience to broaden my knowledge in the tech industry.

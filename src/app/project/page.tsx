@@ -11,7 +11,7 @@ function page() {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 justify-center">
             <div className="border flex flex-col justify-center items-center rounded-md p-4">
                 <Link href="/project(mommyla).png" target="_blank">
-                    <Image src="/project(mommyla).png" width={300} height={300} alt="Project Mommyla" className="w-full h-auto rounded-lg" />
+                    <Image src="/project(mommyla).png" width={300} height={300} alt="Project Mommyla" className="w-40 h-auto rounded-lg" />
                 </Link>
                 <div className="text-base sm:text-lg text-white mt-2 text-center">
                     The system is designed to help with order processing, track sales, and provide sales reports, which can support the business owner in better managing operations.
