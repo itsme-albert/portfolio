@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  font-family: monospace;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
