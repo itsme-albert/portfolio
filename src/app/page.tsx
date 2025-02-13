@@ -12,7 +12,7 @@ export default function Home() {
         <Navbar />
       </div> 
       
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 m-4 p-6 md:p-24" id="home">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-6 md:p-24 bg-[#0a0a0a]" id="home">
         <div className="flex justify-center md:justify-end">
           <Image
             src="/profile.jpg"
