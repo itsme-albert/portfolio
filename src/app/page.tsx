@@ -3,15 +3,16 @@
 import Image from "next/image";
 import Navbar from "./components/navigations/Navbar";
 import Skills from "./skills/page";
+import Project from "./project/page";
 
 export default function Home() {
   return (
     <div className="">
       <div className="sticky top-0 bg-black">
         <Navbar />
-      </div>
+      </div> 
       
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 m-4 p-6 md:p-24">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 m-4 p-6 md:p-24" id="home">
         <div className="flex justify-center md:justify-end">
           <Image
             src="/profile.jpg"
@@ -37,6 +38,10 @@ export default function Home() {
 
       <section id="skills">
         <Skills />
+      </section>
+
+      <section id="project">
+        <Project />
       </section>
     </div>
   );

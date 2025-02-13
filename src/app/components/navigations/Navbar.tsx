@@ -18,23 +18,23 @@ function Navbar() {
             <Logo />
             <ul className="hidden md:flex gap-x-6 text-white">
               <li className='text-xl'>
-                <button type='button' onClick={() => router.push('/')}>
+                <Link href="#home">
                 <div className="flex items-center">
                   <FaHouse className='m-1 text-yellow-500'/>
                   <p>Home</p>
                 </div>
-                </button>
+                </Link>
               </li>
               <li className='text-xl'>
-                <button type='button' onClick={() => router.push('/skills')}>
+                <Link href="#skills">
                 <div className="flex items-center">
                   <FaCode className='m-1 text-yellow-500'/>
                   <p>Skills</p>
                 </div>
-                </button>
+                </Link>
               </li>
               <li className='text-xl'>
-                <Link href="/project">
+                <Link href="#project">
                 <div className="flex items-center">
                   <FaCopy className='m-1 text-yellow-500'/>
                   <p>Project</p>
