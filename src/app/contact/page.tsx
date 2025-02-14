@@ -6,6 +6,7 @@ import { FaLocationPin } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa6";
 import { FaFacebookMessenger } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa6";
+import Link from 'next/link';
 
 function page() {
   return (
@@ -36,9 +37,15 @@ function page() {
                 </div>
             </div>
             <div className="mt-10 flex space-x-4">
+            <Link href="https://www.facebook.com/albert.redila.3/">
                 <FaFacebook className='text-2xl text-yellow-500'/>
+            </Link>
+            <Link href="https://www.facebook.com/albert.redila.3/">
                 <FaFacebookMessenger className='text-2xl text-white'/>
+            </Link>
+            <Link href="https://github.com/itsme-albert">
                 <FaGithub className='text-2xl text-yellow-500'/>
+            </Link>
             </div>
         </div>
         <div className="flex flex-col items-center">
