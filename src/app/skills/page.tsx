@@ -12,28 +12,28 @@ function page() {
             <Link href="https://angular.dev/">
                 <div className="border h-24 rounded-lg bg-gray-900 flex items-center px-4 space-x-4">
                     <Image src="/angular.png" width={60} height={60} alt="" className="rounded-full" />
-                    <div className="text-2xl md:text-3xl text-white">ANGULAR</div>
+                    <div className="text-2xl md:text-2xl text-white">ANGULAR</div>
                 </div>
             </Link>
             
             <Link href="https://laravel.com/">
                 <div className="border h-24 rounded-lg bg-gray-900 flex items-center px-4 space-x-4">
                     <Image src="/laravel.png" width={60} height={60} alt="" className="rounded-full" />
-                    <div className="text-2xl md:text-3xl text-white">LARAVEL</div>
+                    <div className="text-2xl md:text-2xl text-white">LARAVEL</div>
                 </div>
             </Link>
 
             <Link href="https://nextjs.org/">
                 <div className="border h-24 rounded-lg bg-gray-900 flex items-center px-4 space-x-4">
                     <Image src="/nextjs.png" width={60} height={60} alt="" className="rounded-full" />
-                    <div className="text-2xl md:text-3xl text-white">NextJS</div>
+                    <div className="text-2xl md:text-2xl text-white">NextJS</div>
                 </div>
             </Link>
         
             <Link href="https://www.javascript.com/">
                 <div className="border h-24 rounded-lg bg-gray-900 flex items-center px-4 space-x-4">
                     <Image src="/javascript.png" width={60} height={60} alt="" className="rounded-full" />
-                    <div className="text-2xl md:text-3xl text-white">JavaScript</div>
+                    <div className="text-2xl md:text-2xl text-white">JavaScript</div>
                 </div>
             </Link>
             
@@ -42,7 +42,7 @@ function page() {
             <Link href="https://www.scrum.org/resources/what-scrum-module">
                 <div className="border h-24 rounded-lg bg-gray-900 flex items-center px-4 space-x-4">
                     <Image src="/scrum.jpg" width={60} height={60} alt="" className="rounded-full" />
-                    <div className="text-2xl md:text-3xl text-white">SCRUM METHOD</div>
+                    <div className="text-2xl md:text-2xl text-white">SCRUM METHOD</div>
                 </div>
             </Link>
         </div>
