@@ -37,7 +37,7 @@ function page() {
             </div>
             <div className="mt-10 flex space-x-4">
                 <FaFacebook className='text-2xl text-yellow-500'/>
-                <FaFacebookMessenger className='text-2xl'/>
+                <FaFacebookMessenger className='text-2xl text-white'/>
                 <FaGithub className='text-2xl text-yellow-500'/>
             </div>
         </div>
