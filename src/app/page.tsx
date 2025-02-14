@@ -4,6 +4,7 @@ import Image from "next/image";
 import Navbar from "./components/navigations/Navbar";
 import Skills from "./skills/page";
 import Project from "./project/page";
+import Contact from "./contact/page";
 
 export default function Home() {
   return (
@@ -42,6 +43,10 @@ export default function Home() {
 
       <section id="project">
         <Project />
+      </section>
+
+      <section id="contact">
+        <Contact />
       </section>
     </div>
   );

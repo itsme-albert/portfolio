@@ -1,50 +1,78 @@
 import React from 'react'
-import Image from "next/image";
-import Link from 'next/link'
+import Form from 'next/form'
+import { FaPhoneVolume } from "react-icons/fa6";
+import { FaRegEnvelope } from "react-icons/fa6";
+import { FaLocationPin } from "react-icons/fa6";
+import { FaFacebook } from "react-icons/fa6";
+import { FaFacebookMessenger } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa6";
 
 function page() {
   return (
     <div className="bg-white h-auto p-8 md:p-24">
         <h1 className="text-black flex justify-center font-bold text-3xl mb-10 md:mb-20">
-            TECHNICAL SKILLS
+            CONTACT ME
         </h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full md:w-2/4 mx-auto">
-            <Link href="https://angular.dev/">
-                <div className="border h-24 rounded-lg bg-gray-900 flex items-center px-4 space-x-4">
-                <Image src="/angular.png" width={60} height={60} alt="" className="rounded-full" />
-                <div className="text-2xl md:text-3xl text-white">ANGULAR</div>
+        <div className="grid grid-cols-2 gap-2">
+            <div className="bg-gray-900 h-auto p-4 rounded-sm">
+                <h1 className="text-white text-3xl font-bold mt-10 ml-10">
+                    Contact Information
+                </h1>
+                <div className="text-gray-400 text-base mt-2 ml-10">
+                    <p>Say Something to start a live chat!</p>
                 </div>
-            </Link>
-            
-            <Link href="https://laravel.com/">
-                <div className="border h-24 rounded-lg bg-gray-900 flex items-center px-4 space-x-4">
-                <Image src="/laravel.png" width={60} height={60} alt="" className="rounded-full" />
-                <div className="text-2xl md:text-3xl text-white">LARAVEL</div>
+                <div className="mt-20 ml-10">
+                    <div className="flex items-center text-white mt-4 text-lg">
+                        <FaPhoneVolume className='text-white'/>
+                        <p className="ml-2">0963 819 6445</p>
+                    </div>
+                    <div className="flex items-center text-white mt-4 text-lg">
+                        <FaRegEnvelope className='text-white'/>
+                        <p className="ml-2">albertmejicoredila@gmail.com</p>
+                    </div>
+                    <div className="flex items-center text-white mt-4 text-lg">
+                        <FaLocationPin className='text-white'/>
+                        <p className="ml-2">334 Kalabasa Street, Tumana, 
+                            <br /> Santa Maria Bulacan, Philippines</p>
+                    </div>
                 </div>
-            </Link>
-
-            <Link href="https://nextjs.org/">
-                <div className="border h-24 rounded-lg bg-gray-900 flex items-center px-4 space-x-4">
-                <Image src="/nextjs.png" width={60} height={60} alt="" className="rounded-full" />
-                <div className="text-2xl md:text-3xl text-white">NextJS</div>
+                <div className="mt-40 flex">
+                    <FaFacebook className='text-2xl mr-2 text-yellow-500'/>
+                    <FaFacebookMessenger className='text-2xl mr-2'/>
+                    <FaGithub className='text-2xl text-yellow-500'/>
                 </div>
-            </Link>
-        
-        <Link href="https://www.javascript.com/">
-            <div className="border h-24 rounded-lg bg-gray-900 flex items-center px-4 space-x-4">
-                <Image src="/javascript.png" width={60} height={60} alt="" className="rounded-full" />
-                <div className="text-2xl md:text-3xl text-white">JavaScript</div>
             </div>
-        </Link>
-            
-        </div>
-        <div className="mx-auto w-full md:w-80 mt-4 md:mt-6">
-            <Link href="https://www.scrum.org/resources/what-scrum-module">
-                <div className="border h-24 rounded-lg bg-gray-900 flex items-center px-4 space-x-4">
-                <Image src="/scrum.jpg" width={60} height={60} alt="" className="rounded-full" />
-                <div className="text-2xl md:text-3xl text-white">SCRUM METHOD</div>
+            <div className="">
+                <div className="flex justify-center">
+                    <Form action="" className='text-gray-700 mr-5'>
+                        <p className='text-sm'>First Name:</p>
+                        <input name="query" className='border-gray-800 border-b h-10 w-60'/>
+                    </Form>
+                    <Form action="" className='text-gray-700'>
+                        <p className='text-sm'>Last Name:</p>
+                        <input name="query" className='border-gray-800 border-b h-10 w-60'/>
+                    </Form> 
                 </div>
-            </Link>
+                <div className="flex justify-center mt-10">
+                    <Form action="" className='text-gray-700 mr-5'>
+                        <p className='text-sm'>Email:</p>
+                        <input name="query" className='border-gray-800 border-b h-10 w-60'/>
+                    </Form>
+                    <Form action="" className='text-gray-700'>
+                        <p className='text-sm'>Phone:</p>
+                        <input name="query" className='border-gray-800 border-b h-10 w-60'/>
+                    </Form> 
+                </div>
+                <div className="flex justify-center mt-10">
+                    <Form action="" className='text-gray-700 justify-center w-full ml-14 mr-14'>
+                        <p className='text-sm'>Message:</p>
+                        <input placeholder='Write your message...' name="query" className='border-gray-800 border-b h-10 w-full'/>
+                    </Form> 
+                </div>
+                <div className="flex justify-end mr-14 mt-10">
+                    <button className='bg-gray-900 rounded-sm p-3'>Send Message</button>
+                </div>
+            </div>
         </div>
     </div>
   )

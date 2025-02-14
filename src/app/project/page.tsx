@@ -5,7 +5,7 @@ import Link from 'next/link'
 function page() {
   return (
     <div className="bg-[#0a0a0a] h-auto p-8 md:p-24">
-        <h1 className="text-white flex justify-center font-bold text-3xl mb-10 md:mb-20">
+        <h1 className="text-yellow-500 flex justify-center font-bold text-3xl mb-10 md:mb-20">
             SCHOOL PROJECTS
         </h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 justify-center">

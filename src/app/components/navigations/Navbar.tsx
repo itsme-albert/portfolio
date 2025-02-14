@@ -42,7 +42,7 @@ function Navbar() {
                 </Link>
               </li>
               <li className='text-xl'>
-                <Link href="/contact">
+                <Link href="#contact">
                 <div className="flex items-center">
                   <FaComments className='m-1 text-yellow-500'/>
                   <p>Contact</p>
